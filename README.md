@@ -3,4 +3,5 @@
 
 
 Course Info/Materials Link: https://huixinwu.github.io/WebTechnology/?autoplay
+
 Recording for Day 1 class: https://www.dropbox.com/s/40hbdqr4wu9eff9/day1_Monday_Jan3.mp4?dl=0?autoplay
