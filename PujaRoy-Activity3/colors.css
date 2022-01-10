@@ -1,0 +1,148 @@
+.title{color:blue; font-family: verdana; font-size: 50px; text-align: center; margin-top: 100px;}
+.info{color:green; background-color:lightgray; font-family: "arial black"; font-style: italic; font-size:120%; text-align: justify; margin: 5%;
+padding: 30px 40px 80px 50px;
+}
+.author{color: red; font-family: "monotype corsiva"; font-weight: bold; font-size: 1.5em; text-align: right;}
+.n1{
+  text-shadow: -10px 0px 3px purple;
+}
+.n2{
+  text-shadow: 0px -15px 3px purple;
+}
+.n3{
+  text-shadow: -15px 12px 3px purple;
+}
+.n4{
+  text-shadow: 15px -12px 3px purple;
+}
+.n5{
+  text-shadow: 0px 0px 3px purple;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border: olive 20px outset;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+.r{
+  height: 200px;
+  width: 60%;
+  background-color: pink;
+  border: 15px solid purple;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+.container{
+  width: 800px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.figContainer{
+  height: 200px;
+  margin-bottom: 30px;
+}
+.i1, .i2, .i3, .i4{
+  width: 40%;
+  height: 100%;
+  margin-left: 6%;
+}
+.Dogtitle{
+  text-align: center;
+  color: green;
+  text-shadow: 15px -10px 5px gray;
+  font-size: 3.5em;
+  font-family: fantasy;
+}
+.i1{
+  border-radius: 30px;
+}
+.i2{
+  border-radius: 50%;
+}
+.i3{
+  border: solid 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: blue;
+}
+.i4{
+  box-shadow: 0px 0px 10px 8px black;
+}
+
+.container1{
+  width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.figContainer1{
+  text-align: center;
+  text-shadow: 15px -10px 5px gray;
+  font-size: 3.5em;
+  font-family: fantasy;
+  border-width: medium;
+}
+.title2{color:blue; font-family: verdana; font-size: 50px; text-align: center; margin-top: 100px; text-shadow: lightgray;}
+
+.author1{
+  color: red; font-family: "monotype corsiva"; font-weight: bold; font-size: 1.5em; text-align: right;
+}
+.p1{
+  width: 20%;
+  height: 800%;
+  margin-left: 0%;
+  border: dashed 5px red;
+}
+.p2{
+  width: 20%;
+  height: 800%;
+  margin-left: 0%;
+  border: solid 5px purple;
+  border-radius: 30px;
+}
+.p3{
+  width: 20%;
+  height: 800%;
+  margin-left: 0%;
+  border: double 5px brown;
+  border-spacing: 20px;
+}
+.p4{
+  width: 20%;
+  height: 800%;
+  margin-left: 0%;
+  border: dotted 5px darkblue;
+  border-collapse: 5px;
+}
+.name:first-letter{
+  font-size: 3em;
+  color: purple;
+  font-weight: bold;
+}
+.name{
+  text-align: center;
+}
+.title2{
+  text-align: center;
+  color: green;
+  text-shadow: 20px -10px 5px pink;
+  font-size: 3.5em;
+  font-family: monospace;
+}
+.figc{
+  font-size: 20px;
+  color: inherit;
+  text-align: left;
+}
+.footer{
+  color: blue;
+}
+.bc{
+  background-color: lightblue;
+  padding: inherit;
+}
