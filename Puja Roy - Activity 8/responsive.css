@@ -1,0 +1,148 @@
+*{box-sizing: border-box;}
+.title{
+  background-color: lightgreen;
+  text-align: center;
+}
+.navTabs a{
+  background-color: lightblue;
+  text-align: center;
+  text-decoration: none;
+  color: purple;
+}
+.navTabs a:hover{
+  background-color: purple;
+  color: lightgray;
+}
+.mainImg{
+  border: solid red;
+  height: auto;
+}
+.mainImg img{
+  width: 100%;
+  height: 100%;
+}
+.info{
+  background-color: lightblue;
+  height: auto;
+}
+.socialMedia{
+   background-color: lightgreen;
+}
+/* --- tablet or medium size view 450px - 800px ---*/
+@media only screen and (max-width: 800px) and (min-width:450px){
+  body {
+  background-color: yellow;
+ }
+ .title{
+   padding: 20px;
+ }
+ .navTabs{
+   width: 50%;
+   height: 100%;
+   background-color: lightblue;
+   display: inline-block;
+   border: solid blue;
+   float: left;
+ }
+ .navTabs a{
+   width: 100%;
+   display: block;
+   padding: 20px 0px;
+   border-bottom: 10px white solid;
+ }
+.mainImg{
+  border: solid green;
+  width: 45%;
+  float: left;
+}
+.container{
+  border: solid blue;
+  height: 400px;
+  overflow: hidden;
+}
+.info{
+  padding: 20px 30px;
+}
+.socialMedia{
+  height: 100px;
+  margin-top: 2%;
+  }
+}
+
+/* --- smartphone view small view ---*/
+@media only screen and (max-width: 450px){
+  .title{
+    padding: 20px;
+  }
+  .navTabs{
+
+  }
+  .navTabs a{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    font-size: 1.5em;
+    border-bottom: 5px solid white;
+  }
+  .info{
+    padding: 10px;
+    font-size: 1.1em;
+  }
+  .socialMedia{
+     height: 100px;
+     margin-top: 15px;
+  }
+}
+
+/* --- Laptop and Desktop view --- */
+@media only screen and (min-width:900px){
+  .title{
+    background-color: lightgreen;
+    text-align: center;
+  }
+  .title2{
+    background-color: purple;
+    text-align: center;
+    color: white;
+    padding: 40px;
+  }
+  .navTabs{
+    width: 25%;
+    height: 100%;
+    background-color: lightblue;
+    display: inline-block;
+    float: left;
+  }
+  .navTabs a{
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    color: purple;
+    padding-top: 3em;
+    display: block;
+    border-bottom: 10px solid white;
+  }
+  .mainImg{
+    border: none;
+    width: 18%;
+    height: 10%;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .info{
+    padding: 70px;
+    font-size: 1.1em;
+    width: 55%;
+    height: 100%;
+    float: left;
+  }
+  .socialMedia{
+     height: 70px;
+     margin-top: 420px;
+     background-color: blue;
+  }
+.footer{
+  color: red;
+}
+}
