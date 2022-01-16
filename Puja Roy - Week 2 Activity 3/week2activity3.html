@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="
+" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Puja Roy Week 2 Activity 3</title>
+  </head>
+  <body>
+    <h1>Puja Roy</h1>
+    <script type="text/javascript">
+
+      //STRING METHODS
+  //    var n1 = "New York City New Yorker";
+  //    var n2 = n1.toUpperCase();
+  //    var n3 = n1.toLowerCase();
+  //    var search1 = n1.search("Yo");
+  //    var sub1 = n1.search('City');
+  //    var sub2 = n1.substr(sub1, 4);
+  //    var replace1 = n1.replace('City', 'State');
+
+      //ARRAYS
+  //    var fruits;
+  //    fruits = ['orange', 'apple', 'peach'];
+  //    var color = ['red', 'green', 'blue'];
+  //    var mixedArray = new Array('peter', false, -8,);
+
+      //subarrays  arrays with characters
+  //    var meals = ['breakfast',['egg', 'bread', 'juice'], 'lunch'];
+  //    var country = ['America', ['Canada', 'USA', 'Mexico', 'Brasil'], 'Europe', ['Spain', 'France', 'Italy']];
+  //    var country1 = 'United States of America';
+  //    var nCountry = country1[9];
+
+      // Properties and METHODS
+      // Methods that update the array information directly within the array
+//      var animals = ['cat', 'dog', 'fish', 'bird'];
+//      var animals1 = animals;
+//      var animals2 = animals.slice();
+    //  animals.reverse();  // Reverses the order
+    //  animals.shift(); // Remove the first value of the array by using method "shift"
+    // animals.pop(); // Removes the last element of an array and return the element "pop()"
+        // Add comma-separated list of values to the front of the array using method "unshift"
+      // animals.unshift('TURTLE', 'RAT');
+
+//   var user = prompt('Enter an animal: ');
+//   animals.push(user);
+
+
+     // Add comma-separated list values at the end of the array using method "push"
+     // animals.push('GOAT');
+     // indexOf method, gives us the index number for a specific search.
+      // var indexAnimal = animals.indexOf('fish', 1);
+     console.log('WEEK 2 ACTIVITY 3');
+    var array1 = [20, 'red', false, 'pink', 3];
+    console.log(`a) Array initial values:', ${array1}`);
+     var color = prompt('Enter a color: ');
+     array1.push(color);
+     console.log(`b) Array1 with a new COLOR:', ${array1}`);
+     var number = prompt('Enter a NUMBER: ');
+     array1.unshift(number);
+     console.log(`c) Array1 with a new NUMBER:', ${array1}`);
+     var cA = array1.slice();
+     var copyArray = cA.reverse();
+     console.log("d) Array1: " + array1);
+     console.log("copyArray: " + copyArray);
+     copyArray[3]=array1[1];
+     console.log(`Updated copyArray array : ${copyArray}`);
+
+    </script>
+  </body>
+</html>

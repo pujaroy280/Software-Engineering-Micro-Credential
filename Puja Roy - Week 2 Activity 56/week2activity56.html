@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Puja Roy - Week 2 Activity 5 & 6</title>
+  </head>
+  <h1>Puja Roy</h1>
+  <body>
+    <script type="text/javascript">
+    /*
+      console.log('Print number 1');
+      console.log('Print number 2');
+      console.log('Print number 3');
+      console.log('Print number 4');
+      console.log('Print number 5');
+  */
+  /*
+      for (var i=0;i<5; i++){
+        console.log(`Print number ${i}`);
+      }
+      var cars = ['Mazda', 'Tesla', 'Dodge', 'BMW'];
+      for(var i=0; i<cars.length; i++){
+        console.log(`Car ${i+1} = ${cars[i]}`);
+      }
+
+    for(var eachItem of cars){
+      console.log(eachItem);
+    }
+
+    var food = ['salad', 'pizza', 'tofu', 'cheese burger'];
+    for (var i=0; i<food.length; i++){
+
+      if(i%2 == 0){
+        console.log(`Testing ${i}`);
+      }
+
+      console.log(`I want some ${food[i]}`);
+    }
+*/
+    // While Loop
+    /*
+    var i = 0;
+    while(i<=5){
+      console.log(`The number is ${i}`);
+      i++;
+    }
+    // as a check statement
+    var numE = prompt('Enter a number greater than 10: ');   //colllect number
+    numE = parseInt(numE);   //Convert into an integer
+
+    while(numE<10){
+        numE = prompt(`${numE} is less than 10. Enter another number: `);
+        numE = parseInt(numE);
+    }
+    console.log(`The entered number is: ${numE}`);
+    */
+
+    console.log('WEEK 2 ACTIVITY 5');
+    // prompt user for input
+    var input = prompt("Enter a number:");
+    var input2 = parseInt(input);
+    var check = isNaN(input2);
+
+   // Keep asking for input until input is a number
+   while (check) {
+     var input = prompt(`${input} is not a number. Enter a number:`);
+     var input2 = parseInt(input);
+     var check = isNaN(input2);
+   }
+
+   // Provides the output of the number to the console
+   console.log(`You entered ${input}`);
+
+   // ACTIVITY 6
+   console.log('WEEK 2 ACTIVITY 6');
+   // prompt user for input
+   var input = prompt("Enter a number between 1 and 10:");
+   var input = parseInt(input);
+   var check = isNaN(input);
+
+   // Keep asking for input until input is a number between 1 and 10
+   while (input >= 1 && input <= 10) {
+     var input = prompt(`${input} is not a number between 1 and 10. Enter a number between 1 and 10:`);
+     var input = parseInt(input);
+     var check = isNaN(input);
+   }
+
+   // Print the numbers starting at the number provided up to and including the number 15
+   for (var i = input; i <= 15; i++){
+     console.log(`The number is ${i}`);
+   }
+
+    </script>
+  </body>
+</html>
