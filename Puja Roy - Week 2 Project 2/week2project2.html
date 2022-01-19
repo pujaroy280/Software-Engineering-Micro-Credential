@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Puja Roy - Week 2 - Project 2</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      //FUNCTION
+    /*
+      //example 1) function without parameters nor returning value
+      function displayMsg(){      // We named the function displayMsg
+        console.log("Welcome to the program!");
+      }
+
+     displayMsg();  //Call the function to display output
+    //  var saveMsg = displayMsg();
+    //  console.log(`Peter Pan`);
+
+   //example 2) functions without parameters but returning values
+   function message(){
+     var x = 7;
+     var y = -3;
+     var sum = x+y;
+     return sum;
+   }
+   var valueMsg = message();  // Call the function by typing the name of the function and save it into a variable in order to call out the sum
+   // Then, type valueMsg in the console to observe the output of the sum
+   // Or type message() to inspect the output
+   var value2 = 10 + message();
+   console.log(`The value from the function message is: ${valueMsg}`);
+   console.log(`Sum of 10 and message() function: ${value2}`);
+   console.log(message());
+
+
+   // example 3) function with parameters without no retuning value
+   // Write a function that will take a parameter to console a message
+   function upperMessage(message){
+     var upper = message.toUpperCase();
+     console.log(upper);
+   }
+   var name = prompt('Enter a name: ');  //like  a pattern (reads line by line) - Pass the variable to the next lines
+   upperMessage(name);  // Call the function by also putting something inside the parenthesis
+
+
+   // example 4) function with parameters and returning value
+   function doubleNumber(number){
+      var numDouble = 2*number;
+      var numTriple = 3*number;
+      return numTriple;
+   }
+
+   var userNum = parseInt(prompt('Enter a number: '));
+   var retDouble = doubleNumber(userNum);
+
+
+  // example 5) function with two parameters and returning value
+  function summation(num1, num2){  //function is taking 2 numbers inside
+    var sum = num1 + num2;
+    return sum;
+  }
+  var n1 = parseInt(prompt('Enter a number: '));
+  var n2 = parseInt(prompt('Enter another number: '));
+
+  var sum1 = summation(n1,n2);
+  console.log(`The summation function returns: ${sum1}`);
+
+
+
+// BUILD-IN FUNCTION IN JS
+var numPI = Math.PI;
+var n1 = Math.round(numPI); //round() returns the nearest integer
+var n2 = Math.ceil(numPI); // ceil() returns the value rounded up to the nearest integer
+
+// example 6) Create a function that randomly picks an index of the element from an array
+var colors = ['red', 'green', 'blue', 'yellow', 'orange'];
+// the parameter of function colorPick is colorL, which is the length of the array
+function colorPick(lengthArray){
+  pick = Math.floor(Math.random()*lengthArray);
+  return pick;
+}
+var lengthArray = colors.length;
+var indexColor = colorPick(lengthArray);   // Pass to the function
+console.log(colors[indexColor]);
+
+*/
+
+
+  console.log("Week 2 - JS Project");
+  console.log("a)");
+  function greeting(name){
+  var user = prompt("Enter a name:");
+  return user;
+  }
+  var input = parseInt('Enter a name: ');
+  var nameoutput = greeting(input);
+  console.log(`Good evening ${nameoutput}`);
+
+  console.log("b)");
+  function checkName(name){
+    var user = prompt("Enter a name:");
+    return user;
+  }
+  var input = parseInt('Enter a name: ');
+  var nameoutput = checkName(input);
+  if(nameoutput)
+ {
+  console.log(`Welcome ${nameoutput} to the class!`)
+ }
+  else
+ {
+  console.log("You didn't write a name");
+ }
+
+  console.log("c)");
+  function checkNum(name){
+    var user = prompt("Enter a number:");
+    return user;
+  }
+  var input = parseInt('Enter a number: ');
+  var nameoutput = checkNum(input);
+  console.log("Did the user enter a number (true or false)? ",(isNaN(nameoutput))?"false":"true");
+
+  console.log("d)");
+  var numbers = [0, 55, 70, 80, 90];
+  var user = prompt("How many games do you want to purchase?");
+  var input = parseInt('How many games do you want to purchase?');
+  var nameoutput = lottery(input);
+
+  function lottery(lengthArray){
+    pick = Math.floor(Math.random()*lengthArray);
+    return pick;
+   }
+   var lengthArray = numbers.length;
+   var indexColor = lottery(lengthArray);
+   console.log(`Numbers per game: ${numbers[indexColor]}`);
+
+    </script>
+  </body>
+</html>
