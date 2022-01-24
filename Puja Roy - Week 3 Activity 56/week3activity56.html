@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Puja Roy - Week 3 Activity 5 and 6</title>
+    <style media="screen">
+      html{scroll-behavior: smooth;}
+      *{box-sizing: border-box;}
+      .square{
+        window: 20%;
+        height: 50%;
+        background-color: lightgreen;
+      }
+      .toTop{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: rgba(50,50,50,0.7);
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+      }
+      .linkTop{
+        text-decoration: none;   /* TEXT DECORATION IS MEANT TO TAKE OFF THE UNDERLINE OF THE LINK. IN ORDER FOR THIS TO WORK, GIVE A CLASS TO THE LINK TO APPLY CSS TO IT*/
+        color: white;
+        text-align: center;
+        padding: 10px;
+        display: block;
+      }
+      .toTop:hover{
+        box-shadow: 0px 0px 10px 3px black;
+        background-color: rgb(10,10,10,0.7);
+      }
+    </style>
+  </head>
+  <body>
+   <h2>Example 1</h2>
+   <p>Description: use even handler to a button that displays an alert message when it it clicked.</p>
+   <button class="button1">CLICK ME!</button>
+
+
+    <h2>Example 2</h2>
+    <p>Description: Apply addEventListener() to example 1</p>
+    <button class="button2">CLICK ME AGAIN!</button>
+
+    <h2>Example 3</h2>
+    <p>Description: Use the addEventListener() method to add two click events to the same button!</p>
+    <button class="button3">MULTI EVENTS</button>
+
+   <h2>Example 4</h2>
+   <p>Description: Use addEventListener() method to add a mouseover and click event to the same button</p>
+   <button class="button4">MULTI EVENTS</button>
+   <p class="display1">MESSAGE WILL ADD HERE</p>
+
+   <h2>ACTIVITY 5</h2>
+   <button class="button5">MULTI EVENTS</button>
+   <p class="display2">MESSAGE WILL ADD HERE</p>
+
+   <h2>Example 6</h2>
+   <p>Description: Use event object to change the button's background color and display an alert message when it is clicked</p>
+   <button class="button6">CLICK</button>
+
+   <h2>Example 7</h2>
+   <p>Using event object to prevent the default of a "a" tag</p>
+   <a href="https://www.qcc.cuny.edu/" class="qccLink">QCC</a>
+
+   <h2>Example 8</h2>
+   <p>Description: Use event object to display a name typed and entered in an input field</p>
+   <form class="form1" method="get">
+     <label> Full Name: <input type="text" class="inputName"></label>
+     <input type="submit">
+   </form>
+   <p class="display3"></p>
+
+   <h2>ACTIVITY 6</h2>
+   <p>Description: Use event object to display a name typed and entered in an input field</p>
+   <form class="form2" method="get">
+     <label> Full Name: <input type="text" class="inputName1"></label>
+     <input type="submit">
+   </form>
+   <p class="display4"></p>
+
+
+  <h2>Example 10</h2>
+  <p>Use addEventListener to add a scroll event to the window when to hide or show an element</p>
+ <div class="toTop">
+   <a href="#" class="linkTop">&#x261D; <br>To Top</a>
+ </div>
+
+
+
+    <script src="week3activity56.js"></script>
+  </body>
+</html>
