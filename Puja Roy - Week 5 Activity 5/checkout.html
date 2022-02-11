@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form  action="thankyou.html" method="get">
+      <fieldset>
+        <legend>CHECKOUT</legend>
+        <br>
+        <label><b>Items in your bag</b></label>
+        <p id='pName'></p>
+        <script type="text/javascript">
+           let pName = document.querySelector('#pName');
+           pName.innerHTML = sessionStorage.getItem('product_name') + " " + sessionStorage.getItem('price_name');
+        </script>
+        <hr>
+        <br>
+        <br>
+        <label for="userName">Enter username: <input type="text" name="usrName" placeholder="Type username..."</label>
+        <label for="eMail">Enter email address: <input type="text" name="email" placeholder="Type your email address..." </label>
+        <input type="submit" value="SUBMIT ORDER" onclick="passvalue();">
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>

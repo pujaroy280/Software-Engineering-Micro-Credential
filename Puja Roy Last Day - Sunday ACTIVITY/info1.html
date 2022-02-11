@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <h2>Welcome to the Program! <span id='displayName'></span></h2>
+
+ <script type="text/javascript">
+   let disName = document.querySelector('#displayName');
+   disName.innerHTML = localStorage.getItem('full_name');
+ </script>
+
+
+  </body>
+</html>

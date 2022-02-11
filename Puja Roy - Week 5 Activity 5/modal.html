@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Puja Roy - Activity 7</title>
+    <link rel="stylesheet" href="modal.css" type="text/css">
+  </head>
+  <body>
+    <form class="" action="checkout.html" method="get">
+
+     <h1 class="title">Modal Window</h1>
+     <a href="#modalWindow" class="open">Click Here</a>
+    <!-- Modal Window -->
+    <div class="modalBack" id="modalWindow"> <!-- Give an id to the modal window to link it -->
+      <div class="modalFront">
+         <a href="#" class="close">&#9932</a>
+         <div class="imgCont">
+            <img src="cocoa.jpg" alt="Image of Cocoa Butter Cream" title="Cocoa Butter">
+         </div>
+         <div class="info">
+          <p>The magic of COCOA BUTTER</p>
+          <p>Cocoa Butter soothes dry and sensitive skin for people who have problems with their skin.</p>
+          <p>Cocoa Butter has made history for people's smooth skin!</p>
+          <span class="wasPrice">Was $12.50</span> <span class="nowPrice">Now $3.50</span> <!-- Next to each other -->
+          <hr>
+          <input type="submit" class="add" value="ADD TO BAG" onclick="passvalue();"> </input>
+         </div>
+      </div>
+    </div>
+    </form>
+    <!-- End of Modal Window -->
+    <script type="text/javascript">
+        function passvalue(){
+          let prdName = 'Cocoa Butter';
+          sessionStorage.setItem('product_name', prdName);
+          let price = '$3.50';
+          sessionStorage.setItem('price_name', price);
+          return false;
+        }
+    </script>
+
+  </body>
+</html>
